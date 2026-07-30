@@ -1,22 +1,66 @@
 aid: meso
 name: Meso
-description: 'Meso is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Meso is payment infrastructure designed for crypto. Backed by Ribbit Capital,
+  the company is positioned as a payments-rails provider for the cryptocurrency
+  sector. As of this enrichment pass its public web presence is a single-page
+  marketing site at meso.network with no publicly documented developer portal,
+  API reference, or OpenAPI definition surfaced yet. The one machine-readable
+  artifact the company publishes is a PGP-signed RFC 9116 security.txt at
+  /.well-known/security.txt declaring a security contact and disclosure policy.
+  This profile was added to the API Evangelist network as a Ribbit Capital
+  portfolio lead and is tracked for future API surface as the product launches.
 url: https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://meso.network/assets/img/open-meta.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Payments
+- Payment Infrastructure
+- Cryptocurrency
+- Fintech
+- Blockchain
 apis: []
+common:
+- type: Website
+  url: https://meso.network
+- type: WellKnown
+  url: well-known/meso-well-known.yml
+- type: SecurityTxt
+  url: well-known/meso-security.txt
+- type: VulnerabilityDisclosure
+  url: security/meso-vulnerability-disclosure.yml
+- type: Security
+  url: https://meso.network/security
+- type: DomainSecurity
+  url: security/meso-domain-security.yml
+- type: LLMsTxt
+  url: llms/meso-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
