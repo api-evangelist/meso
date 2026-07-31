@@ -1,0 +1,17 @@
+# Meso
+
+> Payment infrastructure designed for crypto. Backed by Ribbit Capital. As of this writing Meso's public web presence is a single-page marketing site at meso.network with no publicly documented developer portal, API reference, or OpenAPI definition. The one machine-readable artifact the company publishes is a PGP-signed RFC 9116 security.txt.
+
+## Company
+- [Website](https://meso.network): Meso — Payment infrastructure designed for crypto.
+
+## Security
+- [security.txt](https://meso.network/.well-known/security.txt): PGP-signed RFC 9116 security contact and disclosure declaration.
+- [Security policy](https://meso.network/security): disclosure policy referenced by security.txt.
+- [PGP key](https://meso.network/pgp-key.txt): encryption key for security disclosures.
+
+## API Evangelist artifacts
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/apis.yml): machine-readable catalog entry for Meso.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/well-known/meso-well-known.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/security/meso-domain-security.yml)
+- [Vulnerability disclosure](https://raw.githubusercontent.com/api-evangelist/meso/refs/heads/main/security/meso-vulnerability-disclosure.yml)

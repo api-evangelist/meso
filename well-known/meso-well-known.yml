@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://meso.network/.well-known/
+host: https://meso.network
+documents:
+  - path: /.well-known/security.txt        # RFC 9116, PGP-signed
+    status: 200
+    content_type: text/plain
+    file: meso-security.txt
+  - path: /pgp-key.txt                      # encryption key referenced by security.txt
+    status: 200
+    content_type: text/plain
+    file: meso-pgp-key.txt
+  - path: /.well-known/openid-configuration # SPA catch-all (index.html), not a real document
+    status: 200
+    note: served the SPA index.html (1876 bytes), not an OIDC discovery document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    note: served the SPA index.html (1876 bytes), not an RFC 8414 document
+  - path: /.well-known/api-catalog
+    status: 200
+    note: served the SPA index.html (1876 bytes), not an RFC 9727 api-catalog
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    note: served the SPA index.html (1876 bytes), not an ai-plugin manifest

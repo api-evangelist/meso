@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@meso.network
+Expires: 2025-03-01T06:00:00.000Z
+Encryption: https://meso.network/pgp-key.txt
+Encryption: https://meso.network/age-key.txt
+Encryption: https://keybase.io/meso_network/pgp_keys.asc?fingerprint=f69feb6de84b1c4b993fadf9f9d095a95ca937b4
+Preferred-Languages: en
+Canonical: https://meso.network/.well-known/security.txt
+Policy: https://meso.network/security
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE9p/rbehLHEuZP635+dCVqVypN7QFAmX9oMMACgkQ+dCVqVyp
+N7SWVQ//S2zRaQM/Y7JsU9xuCdtSsZod0W9aGLz3Eb5dgvKlhxv1k0bXazu3Cn06
+k/FSzUPI1RGALxMKZGEdCiPRPuZdq1byjjqCozT/yn37kij18RppaJCUzKLHB26E
++lJmQOHOrJMNtiJu/cHAEBVKW3FeRGpwN2tsY8Sb8cCU0KTZF8WddSD+mWFLCf9B
+tB9TvFUQo8Be8S5u2c9Mm0es4+8KbtJJ9kZq5MkVzH9HV3CZxXkYcVjGDoN6/yXO
+C5h6dbWZhwQBN2eLhF0u8OvQRXy/2BiB5v2xJu9wk3SjIEiFd4y19H73VAybGac7
+Vw/OZltVBQc/jS7/D1PEZJqerWKREqFK1HKmBhKUXrYabfS66Qkn+XJMm98HsCZR
+zzQod9YfYTBiglWWVZtE8YQbjNUVMdoAMPOc/E7IlSAKjhitbOTjeo/5qB5tfahw
+0OlBSh9dMHyCCGPIkb/jv1jFIy8YkbDx91S5yVm92WWJdGhfN+bVL+S1bkptb6yf
+LRHHsogenDYigRVR5GsoA9FzMVgBAICHXZQehTnxd1w0wai+ji54n87SsO9dO45t
+zOf76ivnq22OZcbdT+9NSPxlKfwt60W4CLp1Xp3Sq91nAg6Rv9NPIRrWokNRQLDN
+SQiNrq1xGCCSNZgUgCl9A4yMV9123/zIIJan2Nr2l8tqK9lv0JY=
+=1I28
+-----END PGP SIGNATURE-----
