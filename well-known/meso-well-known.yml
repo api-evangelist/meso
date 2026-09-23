@@ -2,16 +2,14 @@ generated: '2026-07-20'
 method: searched
 source: https://meso.network/.well-known/
 host: https://meso.network
-documents:
-  - path: /.well-known/security.txt        # RFC 9116, PGP-signed
+hosts:
+- host: https://meso.network
+  documents:
+  - path: /.well-known/security.txt
     status: 200
-    content_type: text/plain
     file: meso-security.txt
-  - path: /pgp-key.txt                      # encryption key referenced by security.txt
-    status: 200
     content_type: text/plain
-    file: meso-pgp-key.txt
-  - path: /.well-known/openid-configuration # SPA catch-all (index.html), not a real document
+  - path: /.well-known/openid-configuration
     status: 200
     note: served the SPA index.html (1876 bytes), not an OIDC discovery document
   - path: /.well-known/oauth-authorization-server
@@ -23,3 +21,8 @@ documents:
   - path: /.well-known/ai-plugin.json
     status: 200
     note: served the SPA index.html (1876 bytes), not an ai-plugin manifest
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
